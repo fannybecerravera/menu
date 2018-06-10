@@ -1,0 +1,54 @@
+.box{
+    background-color: rgb(255, 229, 33);
+}
+box1.{
+    background-color: rgb(255, 255, 255), 248, 255);
+}
+#menu{
+    margin: auto;
+    width: 100%;
+    font-family: open san;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+    background-color: rgb(86, 248, 154);
+    text-decoration: none;
+    padding: 10px, 15px;
+}
+.nav li a:hover{
+    background-color:rgb(156, 241, 191);
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right:-111px;
+    top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+.btn{
+    text-align: center;
+    background-color: rgb(86, 248, 154);
+    width: 100px;
+    height: 100px;
+    
+}
